@@ -31,7 +31,8 @@ def gcd():
     for i in range(1,small+1):
         if (n1%i==0 and n2%i==0):
             a=i
-        print("GCD of two numbers is:",a)    
+    print("GCD of two numbers is:",a) 
+gcd()
 ```
 ## Output:
 ![gcd of two number](output.PNG)
